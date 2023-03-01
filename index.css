@@ -1,0 +1,136 @@
+a:link{
+    text-decoration:none;
+    font-family:Graphik,Arial,sans-serif;
+    color: #0b0909;
+}
+
+
+.navbar{
+    
+    list-style: none;
+    position:absolute;
+    font-family: "Graphik Cond Web",Graphik,Arial,sans-serif;
+
+}
+.superior{
+    display: flex;
+    justify-content:flex-end;
+    flex-direction: column-reverse;
+}
+
+.index{
+    list-style: none;
+
+}
+
+
+.secondary-navbar{
+    text-align:right;
+    list-style: none;
+    font-size: 12px;
+}
+.sec-nav2{
+    text-align:right;
+    list-style: none;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.promo{
+    color:red !important;
+}
+
+.subindex{
+    list-style: none;
+    font-size: 14px;
+}
+
+
+.parrafo-central{
+    text-align:center;
+    list-style: none;
+}
+
+
+.items{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items:start;
+ }
+
+.moto{
+    height: 300px;
+
+}
+.producto{
+    height: auto;
+    width: 280px;
+    justify-content:center;
+}
+.moto__link{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.price{
+    display:flex;
+    font-weight: 500;
+    font-size: 12px;
+    margin-top:6px;
+    flex-direction:column;
+    align-items:center;
+    font-weight: bold;
+}
+.line{
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    border-color:  rgba(255, 251, 251, 0.242);
+}
+.marketing{
+    text-align:center;
+    font-family: "Graphik Cond Web";
+    
+}
+.contacto{
+    text-align:center;
+    font-family: "Graphik Cond Web";
+}
+.green{
+    color:green;
+}
+.icon{
+    height: 12px;
+    width: 12px;
+}
+
+
+.listados{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: "Graphik Cond Web";
+    font-size: 10px;
+}
+.list__title{
+    font-weight: bold;
+}
+.list-wrapper{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.list{
+     /*todo: tamaño*/
+    list-style: none;
+}
+.list1{
+         /*todo: tamaño*/
+    list-style: none;
+}
+.footer{
+    margin:auto;
+    display: flex;
+    justify-content:center;
+}
